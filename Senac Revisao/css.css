@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+a{
+	color: #FF0004;
+	text-decoration: none;
+}
+
+.link{
+/*	margin: 20px;*/
+	margin-right: 50px;
+}
+
+
+.link-rosa{
+	color: #E700FF;
+}
+
+.link-laranja{
+	color: #FF8F00;
+}
+
+
+.alinhador{
+	display: flex;
+	justify-content:center;
+}
+
+li{
+	list-style: none;
+}
+
+
+
+
+#link-preto{
+	background-color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.ul-menu{
+	display: flex;
+	justify-content: space-around;
+}
+
+*/
+
