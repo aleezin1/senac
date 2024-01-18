@@ -23,22 +23,60 @@ a{
 .alinhador{
 	display: flex;
 	justify-content:center;
+	background: #A1C5E7;
 }
 
 li{
 	list-style: none;
 }
 
+.primeiro-link:hover{
+	
+}
 
+.alinhador{
+	background: red;
+}
 
-
-#link-preto{
-	background-color: black;
-
+.alinhador:hover{
+	background: blue;
 }
 
 
+.alinhador{
+	margin-bottom: 100px;
+	transition-timing-function: linear;
+}
 
+.alinhador:hover{
+	padding: 100px;
+}
+
+.texto{
+	background: red;
+	transition: 1s;
+	display: flex;
+	margin-top: 250px;
+}
+
+.texto:hover{
+	width: 1000px;
+	transform:scale(200px);
+}
+
+
+.bkred{
+	background-image: url("bolo.jpg");
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.minha-imagem{
+	width: 200px;
+	height: 200px;
+}
 
 
 
